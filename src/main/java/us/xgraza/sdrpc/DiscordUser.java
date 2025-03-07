@@ -22,10 +22,7 @@ public final class DiscordUser extends Structure
         FIELD_ORDER.add("avatar");
     }
 
-    public String userId,
-            username,
-            discriminator,
-            avatar;
+    public String userId, username, discriminator, avatar;
 
     @Override
     protected List<String> getFieldOrder()
